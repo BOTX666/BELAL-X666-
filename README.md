@@ -197,3 +197,12 @@ Developed by MZ with ❤️ for BOTX666 community.
 - Commands ফোল্ডার লোড হচ্ছে কি?  
 - Lang fallback কাজ করছে কি?  
 - Deploy‑এ key বসানো আছে কি?
+## 🚀 Quick Start
+
+BELAL X666 বট চালাতে মাত্র ৩ ধাপ:
+
+### ১. Clone & Install
+```bash
+git clone https://github.com/BOTX666/BELAL-X666-.git
+cd BELAL-X666-
+npm install
