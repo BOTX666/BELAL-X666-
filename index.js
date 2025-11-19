@@ -1,4 +1,4 @@
-// index.js — BELAL X666 entry point
+// index.js — BELAL X666 powerful entry
 require('dotenv').config();
 const { logInfo, logWarn } = require('./utils/logger');
 const config = require('./bot.config.json');
@@ -16,7 +16,7 @@ try {
   MESSAGES = JSON.parse(fs.readFileSync(path.join(__dirname, 'lang', 'en.json'), 'utf-8'));
 }
 
-// Placeholder client
+// Placeholder client (Messenger/BOTX666)
 function initClient() {
   logInfo('Client initialized (placeholder)');
   return {
@@ -27,6 +27,7 @@ function initClient() {
 
 const client = initClient();
 
+// Base handlers
 function handleFallback(to) {
   client.sendText(to, MESSAGES.fallback);
 }
