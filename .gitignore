@@ -1,0 +1,16 @@
+# Node dependencies
+node_modules/
+
+# Runtime logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Temporary / conflict files
+Conflict.json
