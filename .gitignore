@@ -1,6 +1,0 @@
-node_modules/
-fbstate.json
-logs/
-.env
-.DS_Store
-Thumbs.db
