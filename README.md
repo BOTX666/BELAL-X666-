@@ -1,5 +1,26 @@
 # BELAL X666
+<!-- Animated Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D8FF&center=true&vCenter=true&width=800&lines=BELAL+X666+Bot;Fast.+Reliable.+Fun.;Bangla+%2B+English+Multilingual+Support;Clean+Repo+%26+CI%2FCD+Ready" alt="Typing SVG" />
+</p>
 
+<!-- Project Title -->
+<h1 align="center">🤖 BELAL X666</h1>
+<p align="center">Messenger bot with animate, inbox, roast — multilingual fallback and secure .env setup.</p>
+
+<!-- Badges -->
+<p align="center">
+  <a href="https://github.com/BOTX666/BELAL-X666-"><img alt="Repo size" src="https://img.shields.io/github/repo-size/BOTX666/BELAL-X666-?color=00d8ff&label=Repo%20Size&style=for-the-badge"></a>
+  <a href="https://github.com/BOTX666/BELAL-X666-/commits/main"><img alt="Commits" src="https://img.shields.io/github/commit-activity/m/BOTX666/BELAL-X666-?color=00d8ff&label=Commit%20Activity&style=for-the-badge"></a>
+  <a href="https://github.com/BOTX666/BELAL-X666-/issues"><img alt="Issues" src="https://img.shields.io/github/issues/BOTX666/BELAL-X666-?color=ff9f1c&label=Issues&style=for-the-badge"></a>
+  <a href="https://github.com/BOTX666/BELAL-X666-"><img alt="Stars" src="https://img.shields.io/github/stars/BOTX666/BELAL-X666-?color=ffd166&label=Stars&style=for-the-badge"></a>
+  <a href="#"><img alt="License" src="https://img.shields.io/badge/License-MIT-06d6a0?style=for-the-badge"></a>
+</p>
+
+<!-- Animated divider -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=00d8ff&height=100&section=footer"/>
+</p>
 # 🤖 BELAL X666 Bot
 
 BELAL X666 হলো একটি Messenger Bot, যেখানে animate, inbox, roast সহ বিভিন্ন কমান্ড আছে।  
