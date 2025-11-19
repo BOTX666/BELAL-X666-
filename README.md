@@ -4,11 +4,35 @@ BELAL X666 হলো একটি পাওয়ারফুল Messenger Bot �
 
 ---
 
-## 📂 Project Structure
+# BELAL X666 Bot Easy Setup Guide
 
+এই গাইডে খুব সহজভাবে BELAL X666 বট সেটআপ করার ধাপগুলো দেওয়া হলো।
 
-BELAL-X666/ ├── index.js              # Entry point with autoloader ├── bot.config.json       # Bot configuration ├── package.json          # NPM scripts & dependencies ├── README.md             # Project guide ├── .gitignore            # Ignore unnecessary files │ ├── utils/ │   └── logger.js         # Debug logger │ ├── lang/ │   ├── bn.json           # Bangla messages │   └── en.json           # English messages │ ├── commands/ │   ├── animate.js        # Animation command │   ├── inbox.js          # Inbox command │   └── roast.js          # Roast command │ └── logs/                 # Runtime logs (ignored in git)
+---
 
+## ১. দরকারি ফাইলগুলো
+- `index.js` → বট চালানোর মূল ফাইল
+- `package.json` → প্রজেক্টের তথ্য ও স্ক্রিপ্ট
+- `.env` → তোমার API key/token রাখার ফাইল
+- `.gitignore` → কোন ফাইল GitHub‑এ যাবে না সেটা ঠিক করে
+- `commands/` → সব কমান্ড ফাইল (animate.js, inbox.js, roast.js)
+- `lang/` → ভাষার fallback মেসেজ (bn.json, en.json)
+- `.github/workflows/belal-ci.yml` → GitHub Actions workflow
+
+---
+
+## ২. `.env` ফাইল (API key/token)
+```dotenv
+NODE_ENV=production
+BOT_TOKEN=your_bot_token_here
+DEFAULT_LANG=en
+QUEENCHAT_API_KEY=your_queenchat_api_key_here
+CHATGPT_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
+LOG_LEVEL=info
+LOG_PATH=logs/
+FALLBACK_MODEL=gemini-pro
+BOT_PREFIX=!
 
 ---
 
