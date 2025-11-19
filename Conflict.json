@@ -1,0 +1,36 @@
+{
+  "botNickname": "BOTX666-Queen",
+  "ownerName": "MZ",
+  "language": "bn",
+
+  "admins": ["100000000000000", "100000000000111", "100000000000222"],
+
+  "prefix": "!",
+  "prefixes": ["!", ".", "?", "বট"],
+
+  "ai": {
+    "provider": "chatgpt",
+    "queen": {
+      "apiKey": ""
+    },
+    "chatgpt": {
+      "apiKey": ""
+    },
+    "gemini": {
+      "apiKey": ""
+    }
+  },
+
+  "features": {
+    "cooldownMs": 1000,
+    "quotesOnStartup": true
+  },
+
+  "quotes": [
+    "Ship it. Fix fast. Learn faster.",
+    "Reliability beats cleverness. Every. Single. Time.",
+    "Fallbacks save friendships.",
+    "Be kind in code and comments.",
+    "Debug like a detective, design like a poet."
+  ]
+}
