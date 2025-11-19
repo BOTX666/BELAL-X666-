@@ -39,8 +39,6 @@ npm start
 
 🛠️ CI/CD Workflow
 
-GitHub Actions ব্যবহার করে অটো টেস্ট, লিন্ট, বিল্ড, আর ডিপ্লয় করা যায়।Workflow ফাইল রাখতে হবে: .github/workflows/belal-ci.yml
-
 name: BELAL X666 CI
 
 on:
@@ -55,24 +53,32 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x, 20.x]
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Setup Node
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - name: Install
+
+      - name: Install dependencies
         run: npm install
-      - name: Test
-        run: npm test || echo "No tests"
-      - name: Lint
+
+      - name: Run tests
+        run: npm test || echo "No tests defined"
+
+      - name: Run lint
         run: npm run lint || echo "Lint skipped"
-      - name: Build
+
+      - name: Build project
         run: npm run build || echo "Build skipped"
-      - name: Dry run
+
+      - name: Dry run bot
         run: npm run start || node index.js || echo "Dry run complete"
+
 
 🔐 Environment Variables
 
